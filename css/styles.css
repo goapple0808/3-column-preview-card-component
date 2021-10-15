@@ -1,0 +1,89 @@
+/*tag part*/
+html,body {
+  height: 100%;/*since we want to make it full the scene*/
+  font-size: 15px;
+}
+img{
+  position: relative;
+  top:15%;
+}
+h3{
+  position: relative;
+  top: 20%;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+p{
+  position: relative;
+  top: 25%;
+  width: 50%;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color: #EAE7C6;
+}
+/*class part*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.container-fluid{
+  height: 100%;
+  margin: auto;
+}
+.row{
+  height:100%;
+}
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+  height: 100%;
+
+}
+
+.SUVs{
+  background-color: hsl(184, 100%, 22%);
+  height:100%;
+}
+.Luxury{
+  background-color: hsl(179, 100%, 13%);
+  height:100%;
+}
+.BUTTON_ZRH {
+   -webkit-border-radius: 29px;
+   -moz-border-radius: 29px;
+   border-radius: 29px;
+   height: 20px;
+   line-height: 2px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 120px;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 17px;
+   background-color: rgba(0, 0, 0, 0);
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: relative;
+   top: 45%;
+   left: 5%;
+}
+
+.BUTTON_ZRH:hover {
+   border: solid #FFFFFF 1px;
+   background: rgba(0, 0, 0, 0);
+   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   background-image: -webkit-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/*ID part*/
